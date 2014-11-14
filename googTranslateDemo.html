@@ -1,0 +1,20 @@
+<head>
+	<title>Google Translate Demo</title>
+</head>
+
+<body>
+<h1>Translation Demo</h1>
+	{{> translationTemplate}}
+</body>
+
+<template name="translationTemplate">
+	<h3>Before</h3>
+	<textarea id="source">English</textarea>
+
+	<h3>After</h3>
+	<select id="tarLangOpts">
+		<option value="en">English</option>
+	</select>
+	<button>Translate</button>
+	<div id="tarTxt">English</div>
+</template>
